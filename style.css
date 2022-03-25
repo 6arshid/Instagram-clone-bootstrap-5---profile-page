@@ -1,0 +1,155 @@
+.container{
+  max-width: 999px;
+}
+.center-search{
+  margin-left: 25%;
+}
+.border_silver{
+  border-color: #dbdbdb!important;
+}
+.item{
+  width: 100px;
+}
+.container-article {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #303030;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.9;
+}
+
+.container-article:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+
+}
+a:visited {
+  color: #000;
+  text-decoration: none;
+
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+
+}
+.footer-font{
+  font-size: small;
+}
+.modal-image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0!important;
+  padding-right: 1rem!important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+.comment-widgets .comment-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+  cursor: pointer
+}
+
+.comment-widgets .comment-row {
+  border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+  padding: 15px
+}
+
+.comment-text:hover {
+  visibility: hidden
+}
+
+.comment-text:hover {
+  visibility: visible
+}
+
+.label {
+  padding: 3px 10px;
+  line-height: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 4px;
+  font-size: 75%
+}
+
+.round img {
+  border-radius: 100%
+}
+
+.label-info {
+  background-color: #1976d2
+}
+
+.label-success {
+  background-color: green
+}
+
+.label-danger {
+  background-color: #ef5350
+}
+
+.action-icons a {
+  padding-left: 7px;
+  vertical-align: middle;
+  color: #99abb4
+}
+
+.action-icons a:hover {
+  color: #1976d2
+}
+
+.mt-100 {
+  margin-top: 100px
+}
+
+@media screen and (max-width: 768px) {
+  .center-search{
+    margin-left: 0;
+  }
+  .item{
+    width: 40px;
+  }
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row!important;
+     flex-direction: row!important; 
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}
